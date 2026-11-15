@@ -65,4 +65,60 @@
         </definitions>
     </ESCP.Core.CharacterDef>
 
+    <ESCP.Core.CharacterDef>
+        <defName>ESCP_Character_Eadwyre</defName>
+        <pawnKind>ESCP_Unique_Pawnkind_Breton_High_King</pawnKind>
+        <faction>ESCP_Faction_Kingdom_of_Wayrest</faction>
+        <eras>
+            <li>3</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Breton</xenotype>
+        <roles>
+            <li Class="ESCP.Core.CharacterRole_FactionLeader">
+                <seniority>1500</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Eadwyre</firstName>
+                <lastName></lastName>
+                <nickname>King of Wayrest</nickname>
+                <gender>Male</gender>
+                <age>66</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(180, 180, 180)</hairColor>
+                <hairDef>ShortCut</hairDef>
+                <beardDef>Full</beardDef>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+    <ESCP.Core.CharacterDef MayRequire="Rick.ESCP.Dunmer">
+        <defName>ESCP_Character_Barenziah</defName>
+        <pawnKind>ESCP_Pawnkind_Breton_Noble</pawnKind>
+        <faction>ESCP_Faction_Kingdom_of_Wayrest</faction>
+        <eras>
+            <li>3</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Dunmer</xenotype>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Barenziah</firstName>
+                <lastName></lastName>
+                <nickname>the Queen</nickname>
+                <gender>Female</gender>
+                <age>300</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(70, 40, 40)</hairColor>
+                <hairDef>Long</hairDef>
+                <headTypeDef>ESCP_HeadMerColouredEyes_Female_Average_Normal</headTypeDef>
+                <bodyTypeDef>Female</bodyTypeDef>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
 </Defs>
