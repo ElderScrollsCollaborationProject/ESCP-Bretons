@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <ESCP_Wayrest_Enlist_Letter_Title>Sworn to Wayrest</ESCP_Wayrest_Enlist_Letter_Title>
+    <ESCP_Wayrest_Enlist_Letter_Label>The colony now serves the Kingdom of Wayrest. Wayrest's merchants are generous to those who keep their roads safe.</ESCP_Wayrest_Enlist_Letter_Label>
+    <ESCP_Wayrest_Enlist_Button_Label>Swear to Wayrest</ESCP_Wayrest_Enlist_Button_Label>
+    <ESCP_Wayrest_Enlist_Button_Desc>Join the merchant kingdom of Wayrest, where trade comes first and swords come second.</ESCP_Wayrest_Enlist_Button_Desc>
+    <ESCP_Wayrest_Enlist_Requrements_Not_Satisfied>The merchants of Wayrest are not yet convinced. Standing: {0}.</ESCP_Wayrest_Enlist_Requrements_Not_Satisfied>
+    <ESCP_Wayrest_Enlisted_To_Hostile_Faction>Wayrest does not do business with its enemies.</ESCP_Wayrest_Enlisted_To_Hostile_Faction>
+    <ESCP_Wayrest_Enlisted_With_Key>Sworn to Wayrest</ESCP_Wayrest_Enlisted_With_Key>
+    <ESCP_Wayrest_Missions_Label>Merchant contracts</ESCP_Wayrest_Missions_Label>
+    <ESCP_Wayrest_Missions_Desc>See what the merchant houses need done.</ESCP_Wayrest_Missions_Desc>
+    <ESCP_Wayrest_Menu_Missions_Desc>Contracts posted by Wayrest's merchant houses. They pay promptly, and in full.</ESCP_Wayrest_Menu_Missions_Desc>
+    <ESCP_Wayrest_Menu_Missions_Select_Quest>Select a job</ESCP_Wayrest_Menu_Missions_Select_Quest>
+    <ESCP_Wayrest_Menu_Missions_Start_Quest>Accept</ESCP_Wayrest_Menu_Missions_Start_Quest>
+    <ESCP_Wayrest_Menu_Missions_Collect_Bounty>Collect</ESCP_Wayrest_Menu_Missions_Collect_Bounty>
+    <ESCP_Wayrest_Provisions_Label>Draw supplies</ESCP_Wayrest_Provisions_Label>
+    <ESCP_Wayrest_Provisions_Desc>Provisions bought in bulk at the Wayrest docks.</ESCP_Wayrest_Provisions_Desc>
+    <ESCP_Wayrest_Storage_Label>Merchant warehouse</ESCP_Wayrest_Storage_Label>
+    <ESCP_Wayrest_Storage_Desc>Store goods in a Wayrest warehouse.</ESCP_Wayrest_Storage_Desc>
+    <ESCP_Wayrest_Resign_Menu_Text>Leave Wayrest's service? The merchants will be less friendly.</ESCP_Wayrest_Resign_Menu_Text>
+    <ESCP_Wayrest_Resign_Letter_Title>Left Wayrest</ESCP_Wayrest_Resign_Letter_Title>
+    <ESCP_Wayrest_Resign_Letter_Label>The colony has left the service of Wayrest.</ESCP_Wayrest_Resign_Letter_Label>
+    <ESCP_Wayrest_Resign_Button_Label>Leave Wayrest</ESCP_Wayrest_Resign_Button_Label>
+    <ESCP_Wayrest_Resign_Button_Desc>End your service to the merchant kingdom.</ESCP_Wayrest_Resign_Button_Desc>
+    <ESCP_Wayrest_Kick_Out_Letter_Title>Dropped by Wayrest</ESCP_Wayrest_Kick_Out_Letter_Title>
+    <ESCP_Wayrest_Kick_Out_Label_Title>Wayrest no longer considers the colony worth its coin.</ESCP_Wayrest_Kick_Out_Label_Title>
+    <ESCP_Wayrest_Salary_Label>Collect your stipend</ESCP_Wayrest_Salary_Label>
+    <ESCP_Wayrest_Salary_Desc>A share of Wayrest's customs duties.</ESCP_Wayrest_Salary_Desc>
+    <ESCP_Wayrest_Work_0_Label>Haul for the merchant houses</ESCP_Wayrest_Work_0_Label>
+    <ESCP_Wayrest_Work_0_Desc>Load and guard trade wagons on the roads out of Wayrest.</ESCP_Wayrest_Work_0_Desc>
+    <ESCP_Wayrest_Work_1_Label>Train with the knights</ESCP_Wayrest_Work_1_Label>
+    <ESCP_Wayrest_Work_1_Desc>Breton knights teach the sword and the lance.</ESCP_Wayrest_Work_1_Desc>
+
+</LanguageData>

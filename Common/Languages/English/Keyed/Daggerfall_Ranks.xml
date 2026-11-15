@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <ESCP_Rank_Mentor_Daggerfall>Knight:</ESCP_Rank_Mentor_Daggerfall>
+    <ESCP_Rank_Promote_Daggerfall>Raise in Station</ESCP_Rank_Promote_Daggerfall>
+    <ESCP_Rank_Promoted_Text_Daggerfall>By the king's leave, {0} is raised to {1} of Daggerfall.</ESCP_Rank_Promoted_Text_Daggerfall>
+    <ESCP_Rank_Rally_Title_Daggerfall>{0} raises Daggerfall's banner</ESCP_Rank_Rally_Title_Daggerfall>
+    <ESCP_Rank_Rally_Text_Daggerfall>{0} calls on the honor of Daggerfall, and every one of {1} on the field charges true.</ESCP_Rank_Rally_Text_Daggerfall>
+    <ESCP_Rank_InspectionComplete_Commended_Daggerfall>{0} checks {1}'s arms and pronounces them worthy of the tourney.</ESCP_Rank_InspectionComplete_Commended_Daggerfall>
+    <ESCP_Rank_InspectionComplete_Reprimanded_Daggerfall>{0} checks {1}'s arms and calls them a disgrace to any knight.</ESCP_Rank_InspectionComplete_Reprimanded_Daggerfall>
+    <ESCP_Rank_PunishmentAssigned_Daggerfall>{0} sends {1} to polish armor until it shines.</ESCP_Rank_PunishmentAssigned_Daggerfall>
+
+</LanguageData>

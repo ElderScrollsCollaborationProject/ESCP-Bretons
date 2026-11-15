@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <ESCP.Core.CharacterDef>
+        <defName>ESCP_Character_BretonHighKing</defName>
+        <pawnKind>ESCP_Unique_Pawnkind_Breton_High_King</pawnKind>
+        <faction>ESCP_Faction_Kingdom_of_Wayrest</faction>
+        <eras>
+            <li>2</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Breton</xenotype>
+        <roles>
+            <li Class="ESCP.Core.CharacterRole_FactionLeader">
+                <seniority>1500</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Emeric</firstName>
+                <lastName>de Wayrest</lastName>
+                <nickname>the Merchant King</nickname>
+                <gender>Male</gender>
+                <age>52</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(135, 110, 75)</hairColor>
+                <hairDef>Decent</hairDef>
+                <beardDef>Goatee</beardDef>
+                <skinColorOverride>(220, 200, 180)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+    <ESCP.Core.CharacterDef>
+        <defName>ESCP_Character_KingGothryd</defName>
+        <pawnKind>ESCP_Unique_Pawnkind_Breton_Daggerfall_King</pawnKind>
+        <faction>ESCP_Faction_Kingdom_of_Daggerfall</faction>
+        <eras>
+            <li>3</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Breton</xenotype>
+        <roles>
+            <li Class="ESCP.Core.CharacterRole_FactionLeader">
+                <seniority>1200</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Gothryd</firstName>
+                <lastName>of Daggerfall</lastName>
+                <nickname>King of Daggerfall</nickname>
+                <gender>Male</gender>
+                <age>38</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(85, 65, 50)</hairColor>
+                <hairDef>Decent</hairDef>
+                <beardDef>Goatee</beardDef>
+                <skinColorOverride>(220, 200, 180)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+</Defs>

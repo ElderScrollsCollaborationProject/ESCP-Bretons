@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <FactionDef ParentName="PlayerFactionBase">
+        <defName>ESCP_Faction_Breton_Player</defName>
+        <label>High Rock Settlement</label>
+        <description>A settlement founded by Bretons far from the Iliac Bay, carrying the traditions of High Rock's city-states, the discipline of the Eight Divines, and the characteristic Breton conviction that intelligence and commerce can resolve almost anything that swords cannot.</description>
+        <isPlayer>true</isPlayer>
+        <techLevel>Medieval</techLevel>
+        <basicMemberKind>ESCP_Pawnkind_Breton_Settler</basicMemberKind>
+        <pawnSingular>Breton</pawnSingular>
+        <pawnsPlural>Bretons</pawnsPlural>
+        <leaderTitle>Baron</leaderTitle>
+        <factionIconPath>World/WorldObjects/Expanding/Empire</factionIconPath>
+        <colorSpectrum>
+            <li>(0.72, 0.60, 0.28)</li>
+        </colorSpectrum>
+        <xenotypeSet MayRequire="Ludeon.RimWorld.Biotech">
+            <xenotypeChances>
+                <ESCP_Xenotype_Breton>1</ESCP_Xenotype_Breton>
+            </xenotypeChances>
+        </xenotypeSet>
+        <allowedCultures>
+            <li>ESCP_Culture_Breton</li>
+        </allowedCultures>
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <li>ESCP_Backstory_Breton_Child</li>
+                    <li>ESCP_Backstory_Breton_Noble_Child</li>
+                    <li>ESCP_Backstory_Breton_Mage_Child</li>
+                    <li>ESCP_Backstory_Breton_Citizen</li>
+                    <li>ESCP_Backstory_Breton_Military</li>
+                    <li>ESCP_Backstory_Breton_Mage</li>
+                    <li>ESCP_Backstory_Breton_Noble</li>
+                    <li>ESCP_Backstory_Breton_Merchant</li>
+                    <li>ESCP_Backstory_Breton_Court</li>
+                </categories>
+            </li>
+        </backstoryFilters>
+
+        <modExtensions>
+            <li Class="ESCP_RaceTools.FactionProperties">
+                <factionTags>
+                    <li>ESCP_AllFlags</li>
+                </factionTags>
+            </li>
+        </modExtensions>
+    </FactionDef>
+
+</Defs>

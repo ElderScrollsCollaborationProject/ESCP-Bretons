@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <ESCP_Daggerfall_Enlist_Letter_Title>Sworn to Daggerfall</ESCP_Daggerfall_Enlist_Letter_Title>
+    <ESCP_Daggerfall_Enlist_Letter_Label>The colony has sworn service to Daggerfall. The king's stewards will pay and supply those loyal to the crown.</ESCP_Daggerfall_Enlist_Letter_Label>
+    <ESCP_Daggerfall_Enlist_Button_Label>Swear to Daggerfall</ESCP_Daggerfall_Enlist_Button_Label>
+    <ESCP_Daggerfall_Enlist_Button_Desc>Take service with the King of Daggerfall, one of the oldest crowns in High Rock.</ESCP_Daggerfall_Enlist_Button_Desc>
+    <ESCP_Daggerfall_Enlist_Requrements_Not_Satisfied>The court of Daggerfall does not trust you yet. Standing: {0}.</ESCP_Daggerfall_Enlist_Requrements_Not_Satisfied>
+    <ESCP_Daggerfall_Enlisted_To_Hostile_Faction>Daggerfall will not accept the oath of an enemy.</ESCP_Daggerfall_Enlisted_To_Hostile_Faction>
+    <ESCP_Daggerfall_Enlisted_With_Key>Sworn to Daggerfall</ESCP_Daggerfall_Enlisted_With_Key>
+    <ESCP_Daggerfall_Missions_Label>The king's business</ESCP_Daggerfall_Missions_Label>
+    <ESCP_Daggerfall_Missions_Desc>See what the court needs handled.</ESCP_Daggerfall_Missions_Desc>
+    <ESCP_Daggerfall_Menu_Missions_Desc>Work posted by the court of Daggerfall. Payment comes from the royal treasury.</ESCP_Daggerfall_Menu_Missions_Desc>
+    <ESCP_Daggerfall_Menu_Missions_Select_Quest>Select a job</ESCP_Daggerfall_Menu_Missions_Select_Quest>
+    <ESCP_Daggerfall_Menu_Missions_Start_Quest>Accept</ESCP_Daggerfall_Menu_Missions_Start_Quest>
+    <ESCP_Daggerfall_Menu_Missions_Collect_Bounty>Collect</ESCP_Daggerfall_Menu_Missions_Collect_Bounty>
+    <ESCP_Daggerfall_Provisions_Label>Draw from the castle stores</ESCP_Daggerfall_Provisions_Label>
+    <ESCP_Daggerfall_Provisions_Desc>Bread, cheese and wine from the castle kitchens.</ESCP_Daggerfall_Provisions_Desc>
+    <ESCP_Daggerfall_Storage_Label>Castle storeroom</ESCP_Daggerfall_Storage_Label>
+    <ESCP_Daggerfall_Storage_Desc>Leave goods with the castle steward.</ESCP_Daggerfall_Storage_Desc>
+    <ESCP_Daggerfall_Resign_Menu_Text>Renounce your oath to Daggerfall? The court will take it badly.</ESCP_Daggerfall_Resign_Menu_Text>
+    <ESCP_Daggerfall_Resign_Letter_Title>Oath to Daggerfall renounced</ESCP_Daggerfall_Resign_Letter_Title>
+    <ESCP_Daggerfall_Resign_Letter_Label>The colony has renounced its service to Daggerfall.</ESCP_Daggerfall_Resign_Letter_Label>
+    <ESCP_Daggerfall_Resign_Button_Label>Renounce the oath</ESCP_Daggerfall_Resign_Button_Label>
+    <ESCP_Daggerfall_Resign_Button_Desc>End your service to the king.</ESCP_Daggerfall_Resign_Button_Desc>
+    <ESCP_Daggerfall_Kick_Out_Letter_Title>Banished by Daggerfall</ESCP_Daggerfall_Kick_Out_Letter_Title>
+    <ESCP_Daggerfall_Kick_Out_Label_Title>The king has banished the colony from his service.</ESCP_Daggerfall_Kick_Out_Label_Title>
+    <ESCP_Daggerfall_Salary_Label>Collect your stipend</ESCP_Daggerfall_Salary_Label>
+    <ESCP_Daggerfall_Salary_Desc>Coin from the royal treasury.</ESCP_Daggerfall_Salary_Desc>
+    <ESCP_Daggerfall_Work_0_Label>Garrison duty</ESCP_Daggerfall_Work_0_Label>
+    <ESCP_Daggerfall_Work_0_Desc>Stand watch on the walls of a Daggerfall keep.</ESCP_Daggerfall_Work_0_Desc>
+    <ESCP_Daggerfall_Work_1_Label>Attend court</ESCP_Daggerfall_Work_1_Label>
+    <ESCP_Daggerfall_Work_1_Desc>Learn the manners and the politics of the Breton nobility.</ESCP_Daggerfall_Work_1_Desc>
+
+</LanguageData>

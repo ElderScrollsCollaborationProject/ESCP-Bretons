@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Breton_Arcane_Affinity</defName>
+        <label>arcane affinity</label>
+        <description>The ancient Aldmeri blood in every Breton sharpens, in some, into an intuitive relationship with the forces that govern healing, scholarship, and the hidden structure of the world. Breton physiology carries something that other human races lack, a faint but real resonance with psychic forces, expressed in faster thought, a fine-grained instinct for medical work, and a heightened sensitivity to the currents of the mind that others cannot feel at all.</description>
+        <iconPath>UI/Icons/Genes/ESCP_Gene_Imperial_Bearing</iconPath>
+        <displayCategory>Miscellaneous</displayCategory>
+        <displayOrderInCategory>100</displayOrderInCategory>
+        <biostatCpx>2</biostatCpx>
+        <biostatMet>-3</biostatMet>
+        <statOffsets>
+            <GlobalLearningFactor>0.10</GlobalLearningFactor>
+            <MedicalTendQuality>0.08</MedicalTendQuality>
+            <PsychicSensitivity>0.20</PsychicSensitivity>
+        </statOffsets>
+        <abilities>
+            <li>ESCP_Ability_Breton_Dragonskin</li>
+        </abilities>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Breton_Heritage</defName>
+        <label>Breton heritage</label>
+        <description>Bretons are the product of an improbable union between the ancient Nedes and the Aldmer who ruled High Rock before recorded memory. The result is a people who do not fit cleanly into human or elven categories: slightly quicker in thought than most men, naturally diplomatic in bearing, and possessed of a social ease that comes from millennia of navigating between two cultures that regarded one another with deep suspicion.</description>
+        <iconPath>UI/Icons/Genes/ESCP_Gene_Imperial_Bearing</iconPath>
+        <displayCategory>Miscellaneous</displayCategory>
+        <displayOrderInCategory>101</displayOrderInCategory>
+        <biostatCpx>1</biostatCpx>
+        <biostatMet>-1</biostatMet>
+        <statOffsets>
+            <SocialImpact>0.08</SocialImpact>
+            <NegotiationAbility>0.06</NegotiationAbility>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Breton_Tenacity</defName>
+        <label>Breton tenacity</label>
+        <description>Centuries of feudal warfare between city-states have bred a resilience into the Breton people that outsiders often miss beneath the courtly polish. The politics of High Rock are conducted in blood as often as in ink, and the survivors carry a quiet hardness beneath the diplomacy. Pain registers. It does not stop them.</description>
+        <iconPath>UI/Icons/Genes/ESCP_Gene_Imperial_Discipline</iconPath>
+        <displayCategory>Miscellaneous</displayCategory>
+        <displayOrderInCategory>102</displayOrderInCategory>
+        <biostatCpx>1</biostatCpx>
+        <biostatMet>-1</biostatMet>
+        <statOffsets>
+            <PainShockThreshold>0.08</PainShockThreshold>
+            <MoveSpeed>0.04</MoveSpeed>
+        </statOffsets>
+    </GeneDef>
+
+</Defs>

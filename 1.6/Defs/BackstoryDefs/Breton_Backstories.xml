@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Breton_Trading_Post_Child</defName>
+        <identifier>ESCP_Backstory_Breton_Trading_Post_Child</identifier>
+        <slot>Childhood</slot>
+        <title>trading post child</title>
+        <titleShort>Port child</titleShort>
+        <description>[PAWN_nameDef] grew up in a busy High Rock coastal port, running errands for traders and picking up fragments of half a dozen languages before [PAWN_pronoun] could conjugate any of them. The family dealt in fabric, spices, and whatever the ships brought in that week. By adolescence [PAWN_pronoun] could read a manifest faster than most clerks and negotiate in three languages without needing to think about it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Breton_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Breton_Guild_Quarter_Child</defName>
+        <identifier>ESCP_Backstory_Breton_Guild_Quarter_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Guild Quarter child</title>
+        <titleShort>Guild child</titleShort>
+        <description>[PAWN_nameDef] grew up in the district of town where the Mages Guild kept its hall. The mages paid no attention to the neighborhood's children, but the smells coming through those windows and the things [PAWN_pronoun] caught glimpses of left a mark. [PAWN_pronoun] read everything [PAWN_pronoun] could find and asked questions until the librarian started locking the door.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Breton_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Medicine>1</Medicine>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Breton_Garrison_Child</defName>
+        <identifier>ESCP_Backstory_Breton_Garrison_Child</identifier>
+        <slot>Childhood</slot>
+        <title>garrison child</title>
+        <titleShort>Garrison child</titleShort>
+        <description>[PAWN_nameDef]'s parent was a garrison soldier, so [PAWN_pronoun] grew up behind castle walls. Drills in the morning, repair work in the afternoon, listening to veterans argue about the last siege over supper. By fourteen [PAWN_pronoun] could sharpen a blade, patch a uniform, and identify the exact moment when an argument was about to become a fight.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Breton_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>2</Melee>
+            <Construction>2</Construction>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Breton_Farmstead_Child</defName>
+        <identifier>ESCP_Backstory_Breton_Farmstead_Child</identifier>
+        <slot>Childhood</slot>
+        <title>farmstead child</title>
+        <titleShort>Farm child</titleShort>
+        <description>[PAWN_nameDef] grew up on land between two city-states that were always two seasons away from killing each other again. The farm changed hands on paper twice before [PAWN_pronoun] was ten. [PAWN_pronoun] learned that paper mattered less than the harvest, and that the harvest required no permission from anyone to grow.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Breton_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>2</Plants>
+            <Animals>2</Animals>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Breton_Court_Ward</defName>
+        <identifier>ESCP_Backstory_Breton_Court_Ward</identifier>
+        <slot>Childhood</slot>
+        <title>court ward</title>
+        <titleShort>Court ward</titleShort>
+        <description>[PAWN_nameDef] was sent to a lord's court as a ward, a political arrangement between [PAWN_possessive] family and [PAWN_possessive] lord, more hostage than guest, though nobody used that word. [PAWN_pronoun] learned court manners, court power, and how to smile at people who were evaluating [PAWN_pronoun] as an asset. [PAWN_pronoun] filed that knowledge away very carefully.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Breton_Noble_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>3</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Breton_Castle_Foster</defName>
+        <identifier>ESCP_Backstory_Breton_Castle_Foster</identifier>
+        <slot>Childhood</slot>
+        <title>castle foster child</title>
+        <titleShort>Foster child</titleShort>
+        <description>[PAWN_nameDef] was fostered in a castle household, learning by proximity rather than instruction. Pages ran, squires drilled, and [PAWN_pronoun] watched everything. [PAWN_possessive] own position was vague (not quite a servant, not quite a guest) and that ambiguity taught [PAWN_pronoun] how to read a room before anyone had finished walking into it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Breton_Noble_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Intellectual>2</Intellectual>
+            <Melee>1</Melee>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Breton_Mage_Apprentice_Child</defName>
+        <identifier>ESCP_Backstory_Breton_Mage_Apprentice_Child</identifier>
+        <slot>Childhood</slot>
+        <title>mage's apprentice</title>
+        <titleShort>Mage apprentice</titleShort>
+        <description>A court mage took [PAWN_nameDef] on as a ward before adolescence, formally to run errands and clean equipment, in practice to observe and absorb. Breton children with arcane aptitude were spotted early and claimed early. [PAWN_pronoun] spent more of [PAWN_possessive] childhood in a workroom than outside, and never considered that a loss.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Breton_Mage_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Medicine>2</Medicine>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Breton_Port_Worker</defName>
+        <identifier>ESCP_Backstory_Breton_Port_Worker</identifier>
+        <slot>Adulthood</slot>
+        <title>port laborer</title>
+        <titleShort>Port laborer</titleShort>
+        <description>[PAWN_nameDef] worked the docks of one of High Rock's coastal ports. Unloading cargo, loading it, repairing the warehouse sheds when the weather took them apart. Breton port towns ran on people like [PAWN_nameDef]. [PAWN_pronoun] never saw the upper offices and [PAWN_pronoun] never wanted to.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Breton_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>4</Construction>
+            <Plants>2</Plants>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Breton_Stonecutter</defName>
+        <identifier>ESCP_Backstory_Breton_Stonecutter</identifier>
+        <slot>Adulthood</slot>
+        <title>stonecutter</title>
+        <titleShort>Stonecutter</titleShort>
+        <description>High Rock builds in stone and always has. [PAWN_nameDef] spent years cutting blocks for cathedral towers and castle walls. [PAWN_pronoun] understood the way a fracture runs before most people understand how to hold a chisel. The lords who commissioned the buildings had no idea how much of their permanence depended on people like [PAWN_nameDef].</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Breton_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>5</Mining>
+            <Construction>3</Construction>
+        </skillGains>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Breton_Innkeeper</defName>
+        <identifier>ESCP_Backstory_Breton_Innkeeper</identifier>
+        <slot>Adulthood</slot>
+        <title>crossroads innkeeper</title>
+        <titleShort>Innkeeper</titleShort>
+        <description>[PAWN_nameDef] ran an inn on the road between two city-states. Neither lord laid enough claim to the road to police it regularly, which meant the inn served all kinds: merchants, soldiers, pilgrims, and the occasional person working very hard to blend in. [PAWN_nameDef] kept [PAWN_possessive] opinions to [PAWN_pronoun]self, the drinks well-poured, and the room rates fair.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Breton_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>4</Social>
+            <Cooking>3</Cooking>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <bodyTypeFemale>Fat</bodyTypeFemale>
+        <bodyTypeMale>Fat</bodyTypeMale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Breton_Hedge_Knight</defName>
+        <identifier>ESCP_Backstory_Breton_Hedge_Knight</identifier>
+        <slot>Adulthood</slot>
+        <title>hedge knight</title>
+        <titleShort>Hedge knight</titleShort>
+        <description>[PAWN_nameDef] was a knight without a lord. No banner, no estate, no regular patron. [PAWN_pronoun] hired out [PAWN_possessive] sword for escort duty, tournament circuits, and the occasional job that didn't bear close examination. Not a good life by any measure, but [PAWN_pronoun] knew the sword and that was enough to keep eating most winters.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Breton_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Animals>3</Animals>
+        </skillGains>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Breton_Farmsteader</defName>
+        <identifier>ESCP_Backstory_Breton_Farmsteader</identifier>
+        <slot>Adulthood</slot>
+        <title>contested farmsteader</title>
+        <titleShort>Farmsteader</titleShort>
+        <description>[PAWN_nameDef] farmed contested land, the kind that technically belonged to one lord, was claimed by another, and in practice belonged to whoever kept it planted and producing. [PAWN_pronoun] had more experience with border skirmishes and competing tax collectors than most soldiers, and kept growing crops through all of it because the harvest waited for nobody.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Breton_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>5</Plants>
+            <Animals>3</Animals>
+            <Construction>2</Construction>
+        </skillGains>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Fat</bodyTypeMale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Breton_City_Guard</defName>
+        <identifier>ESCP_Backstory_Breton_City_Guard</identifier>
+        <slot>Adulthood</slot>
+        <title>city-state guard</title>
+        <titleShort>City guard</titleShort>
+        <description>[PAWN_nameDef] served in a city-state garrison for years. Most of the work was mundane: wall walking, customs enforcement, breaking up fights before they became incidents. [PAWN_pronoun] was well-suited to the part of the work that required thinking before acting, which put [PAWN_pronoun] ahead of most of the garrison from the first week.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Breton_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>4</Melee>
+            <Shooting>3</Shooting>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Fat</bodyTypeMale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Breton_Sworn_Knight</defName>
+        <identifier>ESCP_Backstory_Breton_Sworn_Knight</identifier>
+        <slot>Adulthood</slot>
+        <title>sworn knight</title>
+        <titleShort>Sworn knight</titleShort>
+        <description>[PAWN_nameDef] took the oath and served a Breton lord for years. The work was combat, escort, enforcing judgments that nobody at the receiving end wanted to hear, whatever [PAWN_possessive] lord needed done that required a sword and enough restraint not to cause a diplomatic incident. [PAWN_pronoun] kept [PAWN_possessive] oath and [PAWN_possessive] temper, both equally important.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Breton_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Social>2</Social>
+            <Animals>2</Animals>
+        </skillGains>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Breton_Crossbowman</defName>
+        <identifier>ESCP_Backstory_Breton_Crossbowman</identifier>
+        <slot>Adulthood</slot>
+        <title>crossbow soldier</title>
+        <titleShort>Crossbowman</titleShort>
+        <description>[PAWN_nameDef] served as a crossbow soldier in one of High Rock's city-state garrisons. Sieges, walls, city defense. The crossbow's advantage was that you didn't need five years of daily training to be lethal with one. [PAWN_pronoun] had three years of it, which was enough to be excellent.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Breton_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Construction>2</Construction>
+        </skillGains>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Breton_Court_Mage</defName>
+        <identifier>ESCP_Backstory_Breton_Court_Mage</identifier>
+        <slot>Adulthood</slot>
+        <title>court mage</title>
+        <titleShort>Court mage</titleShort>
+        <description>[PAWN_nameDef] was a lord's house mage, title and stipend in exchange for being available at all hours. The role was less spectacular than it sounded: advising on alchemy, treating illnesses the chirurgeons couldn't manage, providing entertainment at feast days. The actual work that mattered happened in the gaps between those things, and [PAWN_pronoun] was careful about who saw the full scope of [PAWN_possessive] capabilities.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Breton_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Medicine>3</Medicine>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Breton_Alchemist</defName>
+        <identifier>ESCP_Backstory_Breton_Alchemist</identifier>
+        <slot>Adulthood</slot>
+        <title>High Rock alchemist</title>
+        <titleShort>Alchemist</titleShort>
+        <description>[PAWN_nameDef] ran an apothecary. Remedies for the sick, compounds for the ambitious, the occasional commission that [PAWN_pronoun] didn't ask too many questions about and didn't discuss afterward. Breton alchemists operated in a gray space that was technically regulated by the Guild and practically regulated by demand. [PAWN_pronoun] knew exactly where every line was and how much of [PAWN_possessive] work crossed it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Breton_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>5</Medicine>
+            <Plants>4</Plants>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Breton_Scholar</defName>
+        <identifier>ESCP_Backstory_Breton_Scholar</identifier>
+        <slot>Adulthood</slot>
+        <title>cathedral scholar</title>
+        <titleShort>Scholar</titleShort>
+        <description>[PAWN_nameDef] spent years in one of High Rock's cathedral libraries. Copying, translating, cross-referencing histories that grew more contradictory the further back they ran. [PAWN_pronoun] knew more about the Direnni period than essentially anyone living, and nobody except other historians cared. That suited [PAWN_pronoun] fine. The work was the point, not the recognition.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Breton_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>7</Intellectual>
+            <Medicine>3</Medicine>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Breton_Estate_Holder</defName>
+        <identifier>ESCP_Backstory_Breton_Estate_Holder</identifier>
+        <slot>Adulthood</slot>
+        <title>minor estate holder</title>
+        <titleShort>Estate holder</titleShort>
+        <description>[PAWN_nameDef] held a minor estate, not a barony, nothing grand, just land with a title attached and the obligations that came with both. Tax collection, tenant disputes, showing up to [PAWN_possessive] lord's muster when the call went out. [PAWN_pronoun] managed the first two competently and the third promptly, which was more than most minor holders managed.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Breton_Noble</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>4</Social>
+            <Intellectual>3</Intellectual>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeFemale>Fat</bodyTypeFemale>
+        <bodyTypeMale>Fat</bodyTypeMale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Breton_Castle_Steward</defName>
+        <identifier>ESCP_Backstory_Breton_Castle_Steward</identifier>
+        <slot>Adulthood</slot>
+        <title>castle steward</title>
+        <titleShort>Castle steward</titleShort>
+        <description>[PAWN_nameDef] ran a castle. Not the combat part (that was the lord's concern) but everything beneath: accounts, stores, staff, the running cost of a hundred people eating three times a day and a garrison burning through supplies faster than it ever realized. [PAWN_pronoun] could identify every weakness in a castle's logistics and had fixed most of them twice.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Breton_Noble</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+            <Social>4</Social>
+            <Construction>2</Construction>
+        </skillGains>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Breton_Sea_Trader</defName>
+        <identifier>ESCP_Backstory_Breton_Sea_Trader</identifier>
+        <slot>Adulthood</slot>
+        <title>Iliac Bay trader</title>
+        <titleShort>Sea trader</titleShort>
+        <description>[PAWN_nameDef] ran cargo between High Rock's ports and whatever markets were paying. The Iliac Bay was busy, political, and occasionally dangerous, and the margins were good enough that [PAWN_pronoun] accepted all three. [PAWN_pronoun] spent more time at sea than on land for the better part of a decade and stopped finding it remarkable sometime in the second year.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Breton_Merchant</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>5</Social>
+            <Crafting>2</Crafting>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Breton_Factor</defName>
+        <identifier>ESCP_Backstory_Breton_Factor</identifier>
+        <slot>Adulthood</slot>
+        <title>merchant's factor</title>
+        <titleShort>Factor</titleShort>
+        <description>[PAWN_nameDef] was a factor, a merchant's local representative, buying and selling on someone else's account in a city where the principal had enough interests to need a permanent presence. The work required knowing price movements, local politics, and which officials to speak with before filing which paperwork. [PAWN_pronoun] was thorough. [PAWN_possessive] employer made a great deal of money.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Breton_Merchant</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>5</Social>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Breton_Court_Diplomat</defName>
+        <identifier>ESCP_Backstory_Breton_Court_Diplomat</identifier>
+        <slot>Adulthood</slot>
+        <title>city-state diplomat</title>
+        <titleShort>Diplomat</titleShort>
+        <description>[PAWN_nameDef] negotiated on behalf of a Breton city-state for years. Trade terms, border agreements, the occasional marriage that quietly resolved a territorial dispute. High Rock had more city-states than anyone could easily count and they were always arguing about something, which meant there was always work for someone who could make two parties feel they had each won. [PAWN_pronoun] was rarely wrong about which concession each side would accept.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Breton_Court</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>6</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Breton_City_Spy</defName>
+        <identifier>ESCP_Backstory_Breton_City_Spy</identifier>
+        <slot>Adulthood</slot>
+        <title>city-state intelligencer</title>
+        <titleShort>Intelligencer</titleShort>
+        <description>[PAWN_nameDef] gathered intelligence for one city-state lord on the others. Breton court politics ran on information: who owed what to whom, what alliances were forming, what the other city's garrison strength actually was versus what it claimed. [PAWN_pronoun] was good at being somewhere without appearing to be there, and better still at not existing in any document.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Breton_Court</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>4</Social>
+            <Intellectual>5</Intellectual>
+        </skillGains>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Breton_Daggerfall_Child</defName>
+        <identifier>ESCP_Backstory_Breton_Daggerfall_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Daggerfall city child</title>
+        <titleShort>Daggerfall child</titleShort>
+        <description>[PAWN_nameDef] grew up inside Daggerfall's walls, in the shadow of the castle and the Guild halls. The city taught [PAWN_pronoun] that everything was connected: merchants deferred to Guild rules, Guild rules deferred to the castle, the castle deferred to the Eight Divines in public and to commerce in practice. [PAWN_pronoun] could follow that chain before [PAWN_pronoun] was old enough to be taken seriously by anyone in it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Breton_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>3</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Breton_Wayrest_Child</defName>
+        <identifier>ESCP_Backstory_Breton_Wayrest_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Wayrest harbor child</title>
+        <titleShort>Wayrest child</titleShort>
+        <description>[PAWN_nameDef] grew up in Wayrest's merchant quarter, where half the world's goods seemed to end up at one point or another. The harbor was [PAWN_possessive] playground and the workshops were [PAWN_possessive] education. [PAWN_pronoun] knew how things were made and what they were worth before [PAWN_pronoun] understood anything about why the nobles in the castle spent so much time arguing about it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Breton_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Crafting>3</Crafting>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Breton_Borderland_Child</defName>
+        <identifier>ESCP_Backstory_Breton_Borderland_Child</identifier>
+        <slot>Childhood</slot>
+        <title>borderlands child</title>
+        <titleShort>Border child</titleShort>
+        <description>[PAWN_nameDef] grew up in the contested edges of High Rock, where the exact borders moved with the outcomes of disputes that the city-states never entirely resolved. [PAWN_pronoun] knew the muster call before [PAWN_pronoun] knew which lord to answer it for, and got used to making a home in whatever conditions the current arrangement allowed.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Breton_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>2</Melee>
+            <Shooting>2</Shooting>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Breton_Kings_Knight</defName>
+        <identifier>ESCP_Backstory_Breton_Kings_Knight</identifier>
+        <slot>Adulthood</slot>
+        <title>king's sworn knight</title>
+        <titleShort>King's knight</titleShort>
+        <description>[PAWN_nameDef] swore directly to the King of High Rock, not to any lesser lord. The oath was specific and the responsibility was real. [PAWN_pronoun] served on royal escort, garrison duty at the capital, and the occasional assignment that appeared in no official records. [PAWN_pronoun] remains selective about which of those things [PAWN_pronoun] discusses.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Breton_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Social>2</Social>
+            <Animals>2</Animals>
+        </skillGains>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Breton_Battlemage</defName>
+        <identifier>ESCP_Backstory_Breton_Battlemage</identifier>
+        <slot>Adulthood</slot>
+        <title>High Rock battlemage</title>
+        <titleShort>Battlemage</titleShort>
+        <description>The Breton spellsword tradition takes students young and holds onto them hard. [PAWN_nameDef] trained in the synthesis of blade and formula for years before seeing a battlefield, and the battlefield confirmed what the training hall had already established. [PAWN_pronoun] could do both things simultaneously, which was rarer than it should have been.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Breton_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>3</Melee>
+            <Intellectual>5</Intellectual>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Breton_Lion_Guard</defName>
+        <identifier>ESCP_Backstory_Breton_Lion_Guard</identifier>
+        <slot>Adulthood</slot>
+        <title>Lion Guard soldier</title>
+        <titleShort>Lion Guard</titleShort>
+        <description>[PAWN_nameDef] served in Wayrest's elite guard. The Lion Guard's standards were high and its reputation was built on the knowledge that it had never been found wanting when it mattered. [PAWN_pronoun] met those standards, drilled to maintain them, and carried the city's reputation every time [PAWN_pronoun] put on [PAWN_possessive] armor.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Breton_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Social>3</Social>
+        </skillGains>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Breton_Treasury_Official</defName>
+        <identifier>ESCP_Backstory_Breton_Treasury_Official</identifier>
+        <slot>Adulthood</slot>
+        <title>royal treasury official</title>
+        <titleShort>Treasury official</titleShort>
+        <description>[PAWN_nameDef] worked in a city-state treasury office. High Rock's patchwork of competing principalities meant the financial arrangements between them were never simple, and someone had to track all of it: taxes, duties, fees, the interest on loans the previous administration had forgotten to account for. [PAWN_pronoun] tracked all of it and found it satisfying in the way that complex and clearly defined work tends to be.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Breton_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Social>4</Social>
+        </skillGains>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Breton_Harbour_Master</defName>
+        <identifier>ESCP_Backstory_Breton_Harbour_Master</identifier>
+        <slot>Adulthood</slot>
+        <title>harbor master's office</title>
+        <titleShort>Harbor master</titleShort>
+        <description>[PAWN_nameDef] ran an Iliac Bay harbor office: scheduling berths, managing customs inspections, negotiating with captains who thought their schedule was the only one that existed. [PAWN_pronoun] kept the port moving when everyone else was arguing, and had long since learned that the argument was usually less important than anyone in it believed.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Breton_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>4</Social>
+            <Crafting>3</Crafting>
+            <Construction>2</Construction>
+        </skillGains>
+        <bodyTypeFemale>Fat</bodyTypeFemale>
+        <bodyTypeMale>Fat</bodyTypeMale>
+    </BackstoryDef>
+
+</Defs>

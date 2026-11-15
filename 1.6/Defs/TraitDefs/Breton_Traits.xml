@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <TraitDef>
+        <defName>ESCP_Trait_Breton_Court_Grace</defName>
+        <commonality>0</commonality>
+        <degreeDatas>
+            <li>
+                <label>court grace</label>
+                <description>Raised in the intricate politics of High Rock's feudal courts, this pawn reads social hierarchy the way others read weather, instinctively, and with a lifetime of accumulated pattern recognition. Their presence commands the right kind of attention and they know exactly when to say nothing.</description>
+                <statOffsets>
+                    <SocialImpact>0.12</SocialImpact>
+                    <NegotiationAbility>0.10</NegotiationAbility>
+                </statOffsets>
+                <skillGains>
+                    <Social>2</Social>
+                </skillGains>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+    <TraitDef>
+        <defName>ESCP_Trait_Breton_Arc_Sight</defName>
+        <commonality>0</commonality>
+        <degreeDatas>
+            <li>
+                <label>arcane sight</label>
+                <description>The Aldmeri heritage that marks all Bretons sharpens, in some, into something that feels almost like a second set of senses. This pawn perceives patterns in natural phenomena and connections between causes that others miss. Research comes readily. Medical problems yield faster to their attention than most.</description>
+                <statOffsets>
+                    <GlobalLearningFactor>0.12</GlobalLearningFactor>
+                    <MedicalTendQuality>0.10</MedicalTendQuality>
+                </statOffsets>
+                <skillGains>
+                    <Intellectual>2</Intellectual>
+                </skillGains>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+    <TraitDef>
+        <defName>ESCP_Trait_Breton_Knightly_Resolve</defName>
+        <commonality>0</commonality>
+        <degreeDatas>
+            <li>
+                <label>knightly resolve</label>
+                <description>Trained in the knightly tradition of High Rock's feudal houses: precision, discipline, and the self-control to hold form when an untrained fighter would panic. When blades are drawn this pawn does not rush or hesitate. They move to where they need to be and do what needs to be done.</description>
+                <statOffsets>
+                    <MeleeHitChance>0.07</MeleeHitChance>
+                    <MeleeDodgeChance>0.04</MeleeDodgeChance>
+                    <PainShockThreshold>0.06</PainShockThreshold>
+                </statOffsets>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+</Defs>

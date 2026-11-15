@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <PawnKindDef Name="ESCP_Breton_UniqueCharacterBase" ParentName="ESCP_BretonkindBase" Abstract="true">
+        <showInDebugSpawner>false</showInDebugSpawner>
+        <combatPower>200</combatPower>
+        <apparelMoney>9999</apparelMoney>
+        <gearHealthRange>10</gearHealthRange>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <weaponMoney>9999</weaponMoney>
+        <maxGenerationAge>99</maxGenerationAge>
+        <initialWillRange>5~7</initialWillRange>
+        <initialResistanceRange>25~35</initialResistanceRange>
+        <disallowedTraits>
+            <li>Brawler</li>
+            <li>Nudist</li>
+        </disallowedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_Breton_UniqueCharacterBase">
+        <defName>ESCP_Unique_Pawnkind_Breton_Daggerfall_King</defName>
+        <label>King of Daggerfall</label>
+        <factionLeader>true</factionLeader>
+        <combatPower>200</combatPower>
+        <weaponTags>
+            <li>MeleeWeapon</li>
+        </weaponTags>
+        <apparelTags>
+            <li>MedievalMilitaryAdvanced</li>
+        </apparelTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Breton_Noble_Child</li>
+                    <li>ESCP_Backstory_Breton_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Breton_Noble</li>
+                    <li>ESCP_Backstory_Breton_Court</li>
+                    <li>ESCP_Backstory_Breton_Military</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Breton_Court_Grace>0</ESCP_Trait_Breton_Court_Grace>
+            <ESCP_Trait_Breton_Knightly_Resolve>0</ESCP_Trait_Breton_Knightly_Resolve>
+        </forcedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_Breton_UniqueCharacterBase">
+        <defName>ESCP_Unique_Pawnkind_Breton_High_King</defName>
+        <label>King of Wayrest</label>
+        <defaultFactionDef>ESCP_Faction_Kingdom_of_Wayrest</defaultFactionDef>
+        <factionLeader>true</factionLeader>
+        <combatPower>200</combatPower>
+        <weaponTags>
+            <li>MeleeWeapon</li>
+        </weaponTags>
+        <apparelTags>
+            <li>MedievalMilitaryAdvanced</li>
+        </apparelTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Breton_Noble_Child</li>
+                    <li>ESCP_Backstory_Breton_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Breton_Noble</li>
+                    <li>ESCP_Backstory_Breton_Court</li>
+                    <li>ESCP_Backstory_Breton_Military</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Breton_Court_Grace>0</ESCP_Trait_Breton_Court_Grace>
+            <ESCP_Trait_Breton_Knightly_Resolve>0</ESCP_Trait_Breton_Knightly_Resolve>
+        </forcedTraits>
+    </PawnKindDef>
+
+</Defs>

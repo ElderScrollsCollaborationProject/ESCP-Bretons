@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <RoyalTitleDef ParentName="ESCP_Base_Empire_Titles" MayRequire="Ludeon.RimWorld.Royalty">
+        <defName>ESCP_Title_Breton_Commoner</defName>
+        <label>Breton commoner</label>
+        <description>A free citizen of one of High Rock's city-states, neither bonded nor landless. The commoner owes tax to whichever lord holds the charter this season, may petition the city court in matters of contract, and is expected to appear at the muster if the town crier announces one. Everything else is their own concern.</description>
+        <tags>
+            <li>ESCP_Title_Breton</li>
+        </tags>
+        <seniority>0</seniority>
+        <favorCost>1</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>1</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <RoyalTitleDef ParentName="ESCP_Base_Empire_Titles" MayRequire="Ludeon.RimWorld.Royalty">
+        <defName>ESCP_Title_Breton_Knight</defName>
+        <label>knight</label>
+        <description>A knighted warrior sworn to one of High Rock's lords, the knight fights under a named banner and is addressed by title. The oath is specific: service and loyalty in exchange for land, stipend, or standing. Knighthood can be earned through tournament, battlefield distinction, or the quiet recommendation of a court mage who noticed something useful in a commoner's manner. The Bretons are practical about this.</description>
+        <tags>
+            <li>ESCP_Title_Breton</li>
+        </tags>
+        <seniority>100</seniority>
+        <favorCost>4</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>2</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <RoyalTitleDef ParentName="ESCP_Base_Empire_Titles" MayRequire="Ludeon.RimWorld.Royalty">
+        <defName>ESCP_Title_Breton_Captain</defName>
+        <label>knight-captain</label>
+        <description>A knight-captain commands a company and answers directly to the lord who raised it. The title carries planning responsibility: provisioning, scouting, the hard decisions about which orders to follow and which to route around. Most knight-captains are former knights who demonstrated that they could be trusted with more than a sword. Some are former court mages who demonstrated that they could be trusted with a sword as well.</description>
+        <tags>
+            <li>ESCP_Title_Breton</li>
+        </tags>
+        <seniority>300</seniority>
+        <favorCost>8</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>3</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <RoyalTitleDef ParentName="ESCP_Base_Empire_Titles" MayRequire="Ludeon.RimWorld.Royalty">
+        <defName>ESCP_Title_Breton_Baron</defName>
+        <label>baron</label>
+        <labelFemale>baroness</labelFemale>
+        <description>A baron holds a minor fief directly from the king or a higher lord: enough land and revenue to maintain a household, a garrison, and an opinion in council. In High Rock's patchwork of city-states, most political affairs happen at this level. The barons negotiate, dispute, and occasionally go to war with each other so frequently that the kings above them have largely learned to manage it rather than prevent it.</description>
+        <tags>
+            <li>ESCP_Title_Breton</li>
+        </tags>
+        <seniority>600</seniority>
+        <favorCost>12</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>4</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <RoyalTitleDef ParentName="ESCP_Base_Empire_Titles" MayRequire="Ludeon.RimWorld.Royalty">
+        <defName>ESCP_Title_Breton_Count</defName>
+        <label>count</label>
+        <labelFemale>countess</labelFemale>
+        <description>A count governs a county, a named territory with multiple settlements, a court, and the administrative machinery to maintain it. The count collects taxes, appoints judges, licenses guild halls, and provides the king with knights and coin when called upon. In High Rock this is not a ceremonial position. The county is a small state, and the count runs it accordingly.</description>
+        <tags>
+            <li>ESCP_Title_Breton</li>
+        </tags>
+        <seniority>900</seniority>
+        <favorCost>18</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>0.8</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>6</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <RoyalTitleDef ParentName="ESCP_Base_Empire_Titles" MayRequire="Ludeon.RimWorld.Royalty">
+        <defName>ESCP_Title_Breton_Duke</defName>
+        <label>duke</label>
+        <labelFemale>duchess</labelFemale>
+        <description>A duke commands the loyalty of lesser lords across an entire region and sits at the king's council by right. The title is old in High Rock and carries specific institutional weight: a duke convenes his own court, issues his own writs in matters that don't touch the crown, and in practice exercises authority that is difficult for anyone, including the king, to challenge without a very good reason and the soldiers to back it.</description>
+        <tags>
+            <li>ESCP_Title_Breton</li>
+        </tags>
+        <seniority>1200</seniority>
+        <favorCost>25</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>0.5</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>8</permitPointsAwarded>
+    </RoyalTitleDef>
+
+</Defs>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <ESCP_Rank_Mentor_Wayrest>Patron:</ESCP_Rank_Mentor_Wayrest>
+    <ESCP_Rank_Promote_Wayrest>Raise in Station</ESCP_Rank_Promote_Wayrest>
+    <ESCP_Rank_Promoted_Text_Wayrest>Wayrest's merchant houses agree. {0} now trades as {1}.</ESCP_Rank_Promoted_Text_Wayrest>
+    <ESCP_Rank_Rally_Title_Wayrest>{0} calls on Wayrest</ESCP_Rank_Rally_Title_Wayrest>
+    <ESCP_Rank_Rally_Text_Wayrest>{0} promises a bonus to every one of {1} on the field, and they fight like it.</ESCP_Rank_Rally_Text_Wayrest>
+    <ESCP_Rank_InspectionComplete_Commended_Wayrest>{0} checks {1}'s arms. Well kept, as befits Wayrest.</ESCP_Rank_InspectionComplete_Commended_Wayrest>
+    <ESCP_Rank_InspectionComplete_Reprimanded_Wayrest>{0} checks {1}'s arms and asks what they paid for that rust.</ESCP_Rank_InspectionComplete_Reprimanded_Wayrest>
+    <ESCP_Rank_PunishmentAssigned_Wayrest>{0} sends {1} to count crates in the warehouse.</ESCP_Rank_PunishmentAssigned_Wayrest>
+
+</LanguageData>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <FactionDef ParentName="FactionBase">
+        <defName>ESCP_Faction_Kingdom_of_Daggerfall</defName>
+        <label>Kingdom of Daggerfall</label>
+        <description>Daggerfall is the dominant military power of High Rock, the city-state whose garrison is largest, whose walls are strongest, and whose kings have historically been the ones to call themselves High King when anyone bothered to press the claim. The Bretons of Daggerfall are still Bretons: politically aware, capable mages, more likely to negotiate than charge. But when Daggerfall does go to war it goes comprehensively, and its knights have a long institutional memory for which neighboring city-states have needed reminding of the balance of power. The current rivalry with Wayrest is older than anyone alive can precisely date, and both courts have long since stopped needing a specific cause to maintain it.</description>
+        <colorSpectrum>
+            <li>(0.35, 0.48, 0.68)</li>
+        </colorSpectrum>
+        <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+        <pawnSingular>Breton</pawnSingular>
+        <pawnsPlural>Bretons</pawnsPlural>
+        <categoryTag>Outlander</categoryTag>
+        <settlementGenerationWeight>0.3</settlementGenerationWeight>
+        <requiredCountAtGameStart>1</requiredCountAtGameStart>
+        <canSiege>true</canSiege>
+        <canStageAttacks>true</canStageAttacks>
+        <leaderTitle>King of Daggerfall</leaderTitle>
+        <factionIconPath>World/WorldObjects/Expanding/Empire</factionIconPath>
+        <techLevel>Medieval</techLevel>
+        <fixedName>Kingdom of Daggerfall</fixedName>
+        <allowedCultures>
+            <li>ESCP_Culture_Breton</li>
+        </allowedCultures>
+
+        <royalTitleTags>
+            <li>ESCP_Title_Breton</li>
+        </royalTitleTags>
+        <royalFavorLabel>Noble Honor</royalFavorLabel>
+        <royalTitleInheritanceWorkerClass>RoyalTitleInheritanceWorker</royalTitleInheritanceWorkerClass>
+
+        <fixedIdeo>true</fixedIdeo>
+        <ideoName>Eight Divines</ideoName>
+        <ideoDescription>The Eight Divines are the ordering principle of Daggerfall's civic and military life. Stendarr's righteous might is invoked before the garrison musters; Akatosh's eternity underwrites the permanence of oaths; Arkay's cycle is observed in the funerary rites of knights and commoners alike. Daggerfall does not separate faith from governance. The cathedral stands beside the castle by design, and the king's authority is expressed through both. The city has rebuilt its great temple more than once after sieges and disasters, and has always rebuilt it larger. This is understood to be the correct response to difficulty: not diminishment, but enlargement.</ideoDescription>
+        <deityPresets>
+            <li>
+                <nameType><name>Akatosh</name><type>Dragon God of Time and chief of the Divines</type></nameType>
+                <gender>Male</gender>
+                <iconPath>UI/Deities/ESCP_DeityAkatosh</iconPath>
+            </li>
+            <li>
+                <nameType><name>Julianos</name><type>god of wisdom, logic, and scholarship</type></nameType>
+                <gender>Male</gender>
+                <iconPath>UI/Deities/ESCP_DeityJulianos</iconPath>
+            </li>
+            <li>
+                <nameType><name>Zenithar</name><type>god of work, commerce, and earthly endeavor</type></nameType>
+                <gender>Male</gender>
+                <iconPath>UI/Deities/ESCP_DeityZenithar</iconPath>
+            </li>
+            <li>
+                <nameType><name>Stendarr</name><type>god of mercy, righteous might, and divine justice</type></nameType>
+                <gender>Male</gender>
+                <iconPath>UI/Deities/ESCP_DeityStendarr</iconPath>
+            </li>
+            <li>
+                <nameType><name>Mara</name><type>goddess of love, family, and compassion</type></nameType>
+                <gender>Female</gender>
+                <iconPath>UI/Deities/ESCP_DeityMara</iconPath>
+            </li>
+            <li>
+                <nameType><name>Dibella</name><type>goddess of beauty, art, and affection</type></nameType>
+                <gender>Female</gender>
+                <iconPath>UI/Deities/ESCP_DeityDibella</iconPath>
+            </li>
+            <li>
+                <nameType><name>Kynareth</name><type>goddess of air, sky, and the natural world</type></nameType>
+                <gender>Female</gender>
+                <iconPath>UI/Deities/ESCP_DeityKynareth</iconPath>
+            </li>
+            <li>
+                <nameType><name>Arkay</name><type>god of the cycle of life, death, and funerary custom</type></nameType>
+                <gender>Male</gender>
+                <iconPath>UI/Deities/ESCP_DeityArkay</iconPath>
+            </li>
+        </deityPresets>
+        <styles>
+            <li>ESCP_Style_Breton</li>
+        </styles>
+        <forcedMemes>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">ESCP_Meme_EightDivines</li>
+        </forcedMemes>
+        <requiredPreceptsOnly>true</requiredPreceptsOnly>
+
+        <xenotypeSet>
+            <xenotypeChances>
+                <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0</Neanderthal>
+                <Hussar MayRequire="Ludeon.RimWorld.Biotech">0</Hussar>
+                <Pigskin MayRequire="Ludeon.RimWorld.Biotech">0</Pigskin>
+                <Yttakin MayRequire="Ludeon.RimWorld.Biotech">0</Yttakin>
+                <Genie MayRequire="Ludeon.RimWorld.Biotech">0</Genie>
+                <Dirtmole MayRequire="Ludeon.RimWorld.Biotech">0</Dirtmole>
+                <Highmate MayRequire="Ludeon.RimWorld.Biotech">0</Highmate>
+            </xenotypeChances>
+        </xenotypeSet>
+
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <li>ESCP_Backstory_Breton_Child</li>
+                    <li>ESCP_Backstory_Breton_Noble_Child</li>
+                    <li>ESCP_Backstory_Breton_Mage_Child</li>
+                    <li>ESCP_Backstory_Breton_Citizen</li>
+                    <li>ESCP_Backstory_Breton_Military</li>
+                    <li>ESCP_Backstory_Breton_Mage</li>
+                    <li>ESCP_Backstory_Breton_Noble</li>
+                    <li>ESCP_Backstory_Breton_Merchant</li>
+                    <li>ESCP_Backstory_Breton_Court</li>
+                    <li>ESCP_Backstory_Breton_Child</li>
+                    <li>ESCP_Backstory_Breton_Military</li>
+                    <li>ESCP_Backstory_Breton_Citizen</li>
+                </categories>
+                <commonality>0.95</commonality>
+            </li>
+        </backstoryFilters>
+
+        <caravanTraderKinds>
+            <li>ESCP_Caravan_Breton_Trader</li>
+            <li>ESCP_Caravan_Breton_Quartermaster</li>
+        </caravanTraderKinds>
+
+        <visitorTraderKinds>
+            <li>ESCP_Caravan_Breton_Trader</li>
+        </visitorTraderKinds>
+
+        <baseTraderKinds>
+            <li>ESCP_Caravan_Breton_Trader</li>
+        </baseTraderKinds>
+
+        <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
+        <maxPawnCostPerTotalPointsCurve>
+            <points>
+                <li>(0, 35)</li>
+                <li>(70, 50)</li>
+                <li>(700, 100)</li>
+                <li>(1300, 150)</li>
+                <li>(100000, 10000)</li>
+            </points>
+        </maxPawnCostPerTotalPointsCurve>
+
+        <pawnGroupMakers>
+            <li>
+                <kindDef>Combat</kindDef>
+                <options>
+                    <ESCP_Pawnkind_Breton_Knight>14</ESCP_Pawnkind_Breton_Knight>
+                    <ESCP_Pawnkind_Breton_Crossbowman>8</ESCP_Pawnkind_Breton_Crossbowman>
+                    <ESCP_Pawnkind_Breton_Court_Mage>3</ESCP_Pawnkind_Breton_Court_Mage>
+                    <ESCP_Pawnkind_Breton_Knight_Captain>3</ESCP_Pawnkind_Breton_Knight_Captain>
+                </options>
+            </li>
+            <li>
+                <kindDef>Peaceful</kindDef>
+                <options>
+                    <ESCP_Pawnkind_Breton_Citizen>20</ESCP_Pawnkind_Breton_Citizen>
+                    <ESCP_Pawnkind_Breton_Merchant>8</ESCP_Pawnkind_Breton_Merchant>
+                    <ESCP_Pawnkind_Breton_Noble>5</ESCP_Pawnkind_Breton_Noble>
+                </options>
+            </li>
+            <li>
+                <kindDef>Trader</kindDef>
+                <traders>
+                    <ESCP_Pawnkind_Breton_Trader>1</ESCP_Pawnkind_Breton_Trader>
+                    <ESCP_Pawnkind_Breton_Quartermaster>1</ESCP_Pawnkind_Breton_Quartermaster>
+                </traders>
+                <carriers>
+                    <Muffalo>6</Muffalo>
+                    <Dromedary>4</Dromedary>
+                    <Alpaca>3</Alpaca>
+                </carriers>
+                <guards>
+                    <ESCP_Pawnkind_Breton_Knight>8</ESCP_Pawnkind_Breton_Knight>
+                    <ESCP_Pawnkind_Breton_Crossbowman>4</ESCP_Pawnkind_Breton_Crossbowman>
+                    <ESCP_Pawnkind_Breton_Knight_Captain>2</ESCP_Pawnkind_Breton_Knight_Captain>
+                </guards>
+            </li>
+            <li>
+                <kindDef>Settlement</kindDef>
+                <options>
+                    <ESCP_Pawnkind_Breton_Citizen>6</ESCP_Pawnkind_Breton_Citizen>
+                    <ESCP_Pawnkind_Breton_Knight>14</ESCP_Pawnkind_Breton_Knight>
+                    <ESCP_Pawnkind_Breton_Crossbowman>10</ESCP_Pawnkind_Breton_Crossbowman>
+                    <ESCP_Pawnkind_Breton_Court_Mage>3</ESCP_Pawnkind_Breton_Court_Mage>
+                    <ESCP_Pawnkind_Breton_Knight_Captain>3</ESCP_Pawnkind_Breton_Knight_Captain>
+                    <ESCP_Pawnkind_Breton_Noble>2</ESCP_Pawnkind_Breton_Noble>
+                </options>
+            </li>
+        </pawnGroupMakers>
+        <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+
+        <modExtensions Inherit="False">
+            <li Class="ESCP_RaceTools.FactionProperties">
+                <factionTags>
+                    <li>ESCP_AllFlags</li>
+                </factionTags>
+            </li>
+            <li Class="ESCP.Factions.FactionExtension_FlavorOverride">
+                <newLabel>Kingdom of Daggerfall</newLabel>
+            </li>
+            <li Class="ESCP.Factions.FactionExtension_PermanentlyHostileTo">
+                <hostileFactionDefs>
+                    <li>ESCP_Faction_Kingdom_of_Wayrest</li>
+                </hostileFactionDefs>
+            </li>
+            <li Class="ESCP.Factions.FactionExtension_BannedArrivalModes">
+                <arrivalModes>
+                    <li>EdgeDrop</li>
+                    <li>EdgeDropGroups</li>
+                    <li>CenterDrop</li>
+                    <li>RandomDrop</li>
+                </arrivalModes>
+            </li>
+        </modExtensions>
+    </FactionDef>
+
+</Defs>

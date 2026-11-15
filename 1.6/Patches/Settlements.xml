@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/FactionDef[defName="ESCP_Faction_Kingdom_of_Daggerfall"]</xpath>
+        <value>
+            <li Class="ESCP.Factions.FactionExtension_NamedSettlement">
+                <settlementNames>
+                    <li>Daggerfall</li>
+                    <li>Glenpoint</li>
+                    <li>Camlorn</li>
+                </settlementNames>
+                <preferredHilliness />
+                <allowedBiomes>
+                    <li>TemperateForest</li>
+                    <li>BorealForest</li>
+                </allowedBiomes>
+                <clustered>true</clustered>
+            </li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/FactionDef[defName="ESCP_Faction_Kingdom_of_Wayrest"]</xpath>
+        <value>
+            <li Class="ESCP.Factions.FactionExtension_NamedSettlement">
+                <settlementNames>
+                    <li>Wayrest</li>
+                    <li>Evermore</li>
+                    <li>Farrun</li>
+                </settlementNames>
+                <preferredHilliness />
+                <allowedBiomes>
+                    <li>TemperateForest</li>
+                    <li>BorealForest</li>
+                </allowedBiomes>
+                <clustered>true</clustered>
+                <nearFaction>ESCP_Faction_Kingdom_of_Daggerfall</nearFaction>
+            </li>
+        </value>
+    </Operation>
+
+</Patch>

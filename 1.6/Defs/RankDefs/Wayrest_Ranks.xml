@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ESCP.Ranks.RankTrackDef>
+        <defName>ESCP_RankTrack_Wayrest</defName>
+        <label>Wayrest ranks</label>
+        <rootTier>ESCP_Rank_Wayrest_Retainer</rootTier>
+        <owningFaction>ESCP_Faction_Kingdom_of_Wayrest</owningFaction>
+        <collectiveNoun>Wayrest</collectiveNoun>
+        <drillLabel>Sword Lessons</drillLabel>
+        <drillDesc>Train with any colonist. Both stop what they are doing and both gain skill XP. Once per day.</drillDesc>
+        <studyLabel>Go Over the Ledgers</studyLabel>
+        <studyDesc>Study with another member. Both gain skill XP. Once per day.</studyDesc>
+        <inspectLabel>Inspect Their Arms</inspectLabel>
+        <inspectDesc>Look over a junior member's gear. Good upkeep earns praise and poor upkeep earns a sharp word.</inspectDesc>
+        <punishLabel>Send to Count Crates...</punishLabel>
+        <punishDesc>Set a junior member to tedious labor for a failure, souring their mood. Once per day per member.</punishDesc>
+        <rallyLabel>For Wayrest!</rallyLabel>
+        <rallyDesc>Call on {0} to fight harder for a short while. Once every few days.</rallyDesc>
+        <fallInLabel>To the Counting House</fallInLabel>
+        <fallInDesc>Order {0} to gather behind you, up to four deep. They hold position until released.</fallInDesc>
+        <dismissLabel>Back to Business</dismissLabel>
+        <dismissDesc>Release {0} so they can return to their duties.</dismissDesc>
+    </ESCP.Ranks.RankTrackDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_Wayrest_Retainer</defName>
+        <label>retainer</label>
+        <description>Works for one of Wayrest's merchant houses.</description>
+        <nextTierOptions>
+            <li>ESCP_Rank_Wayrest_Factor</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_Wayrest_Factor</defName>
+        <label>factor</label>
+        <description>Handles a house's trade in a distant port.</description>
+        <minDaysInRank>4</minDaysInRank>
+        <skillRequirements>
+            <Social>5</Social>
+        </skillRequirements>
+        <minMissionsCompleted>1</minMissionsCompleted>
+        <trainingXpPerHour>
+            <Social>400</Social>
+            <Melee>200</Melee>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Faction_Novice</expedition>
+        <discipline>Scholarly</discipline>
+        <nextTierOptions>
+            <li>ESCP_Rank_Wayrest_Merchant</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_Wayrest_Merchant</defName>
+        <label>merchant</label>
+        <description>Trades under their own seal with Wayrest's blessing.</description>
+        <minDaysInRank>9</minDaysInRank>
+        <skillRequirements>
+            <Social>8</Social>
+        </skillRequirements>
+        <minMissionsCompleted>2</minMissionsCompleted>
+        <trainingXpPerHour>
+            <Social>500</Social>
+            <Melee>250</Melee>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Faction_Novice</expedition>
+        <discipline>Scholarly</discipline>
+        <nextTierOptions>
+            <li>ESCP_Rank_Wayrest_MerchantPrince</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_Wayrest_MerchantPrince</defName>
+        <label>merchant prince</label>
+        <description>Controls a fleet of ships and half the gossip in the city.</description>
+        <minDaysInRank>14</minDaysInRank>
+        <skillRequirements>
+            <Social>11</Social>
+        </skillRequirements>
+        <minMissionsCompleted>4</minMissionsCompleted>
+        <trainingXpPerHour>
+            <Social>600</Social>
+            <Melee>300</Melee>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Faction_Veteran</expedition>
+        <discipline>Scholarly</discipline>
+        <nextTierOptions>
+            <li>ESCP_Rank_Wayrest_RoyalCounselor</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_Wayrest_RoyalCounselor</defName>
+        <label>royal counselor</label>
+        <description>Advises the King of Wayrest on trade and war alike.</description>
+        <minDaysInRank>20</minDaysInRank>
+        <skillRequirements>
+            <Social>14</Social>
+        </skillRequirements>
+        <minMissionsCompleted>6</minMissionsCompleted>
+        <trainingXpPerHour>
+            <Social>700</Social>
+            <Melee>350</Melee>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Faction_Veteran</expedition>
+        <discipline>Scholarly</discipline>
+    </ESCP.Ranks.RankTierDef>
+
+</Defs>

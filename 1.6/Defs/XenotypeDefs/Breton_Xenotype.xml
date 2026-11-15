@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <XenotypeDef>
+        <defName>ESCP_Xenotype_Breton</defName>
+        <label>Breton</label>
+        <iconPath>UI/Icons/Xenotypes/Hussar</iconPath>
+        <description>The people of High Rock's feudal city-states, descended from an unlikely union of ancient Nedes and the Aldmer who ruled the Iliac Bay before recorded memory. Bretons inherit both a human's ambition and an elf's aptitude for the arcane, which expresses itself as an uncanny facility with scholarship, medicine, and the kind of social intelligence that navigates courts as readily as battlefields. They are not the strongest people of Tamriel or the most enduring, but they are among its most capable, and they have the ruins of their rivals to prove it.</description>
+        <descriptionShort>Half-blooded scholars and knights of High Rock: arcane-touched, politically sharp, and harder than they look.</descriptionShort>
+        <inheritable>true</inheritable>
+        <genes>
+            <li>ESCP_Gene_Breton_Arcane_Affinity</li>
+            <li>ESCP_Gene_Breton_Heritage</li>
+            <li>ESCP_Gene_Breton_Tenacity</li>
+            <li>Skin_Melanin2</li>
+            <li>Skin_Melanin3</li>
+        </genes>
+    </XenotypeDef>
+
+</Defs>

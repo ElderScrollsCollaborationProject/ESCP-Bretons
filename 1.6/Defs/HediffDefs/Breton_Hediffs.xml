@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <HediffDef>
+        <defName>ESCP_Hediff_Breton_Dragonskin</defName>
+        <hediffClass>HediffWithComps</hediffClass>
+        <label>Dragonskin</label>
+        <description>The Aldmeri heritage in this pawn's blood is holding. Incoming harm is substantially reduced, and psychic forces find less grip on their mind than they otherwise would.</description>
+        <defaultLabelColor>(0.65, 0.8, 1.0)</defaultLabelColor>
+        <isBad>false</isBad>
+        <initialSeverity>1</initialSeverity>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>3600~3600</disappearsAfterTicks>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <statOffsets>
+                    <PsychicSensitivity>-0.5</PsychicSensitivity>
+                </statOffsets>
+                <statFactors>
+                    <IncomingDamageFactor>0.5</IncomingDamageFactor>
+                </statFactors>
+            </li>
+        </stages>
+    </HediffDef>
+
+</Defs>
