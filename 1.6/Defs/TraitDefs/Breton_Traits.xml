@@ -7,7 +7,7 @@
         <degreeDatas>
             <li>
                 <label>court grace</label>
-                <description>Raised in the intricate politics of High Rock's feudal courts, this pawn reads social hierarchy the way others read weather, instinctively, and with a lifetime of accumulated pattern recognition. Their presence commands the right kind of attention and they know exactly when to say nothing.</description>
+                <description>Raised among the scheming courts of High Rock, this pawn always knows who outranks whom and who is about to fall. They are good company at a feast and better at keeping secrets.</description>
                 <statOffsets>
                     <SocialImpact>0.12</SocialImpact>
                     <NegotiationAbility>0.10</NegotiationAbility>
