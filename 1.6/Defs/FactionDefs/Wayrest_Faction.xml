@@ -212,6 +212,31 @@
                     <li>RandomDrop</li>
                 </arrivalModes>
             </li>
+            <li Class="ESCP.Factions.FactionExtension_NamedSettlement">
+                <settlementNames>
+                    <li>Wayrest</li>
+                    <li>Evermore</li>
+                    <li>Farrun</li>
+                </settlementNames>
+                <preferredHilliness />
+                <allowedBiomes>
+                    <li>TemperateForest</li>
+                    <li>BorealForest</li>
+                </allowedBiomes>
+                <clustered>true</clustered>
+                <nearFaction>ESCP_Faction_Kingdom_of_Daggerfall</nearFaction>
+            </li>
+            <li Class="ESCP.Enlist.FactionEnlistOptions">
+                <enlistOptionsDefs>
+                    <li>ESCP_Enlistment_Wayrest</li>
+                </enlistOptionsDefs>
+            </li>
+            <li Class="ESCP.Ranks.FactionExtension_RankTracks">
+                <rankTracks>
+                    <li>ESCP_RankTrack_Wayrest</li>
+                </rankTracks>
+            </li>
+            <li Class="ESCP.Core.Crime.FactionExtension_Law" />
         </modExtensions>
     </FactionDef>
 
